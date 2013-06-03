@@ -1,0 +1,5 @@
+<h1>Trending Skills</h1>
+
+<% @skills.each do |skill| %>	
+	<%= skill.name+" "+skill.count.to_s %><br>
+<% end %>
